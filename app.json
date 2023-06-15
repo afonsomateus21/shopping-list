@@ -3,13 +3,14 @@
     "name": "shopping-list",
     "slug": "shopping-list",
     "version": "1.0.0",
+    "scheme": "shoppinglist",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#2980B9"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.afonsomateus.shoppinglist"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d88a6ac-b4f3-4160-a682-df7850e496a4"
+      }
     }
   }
 }
